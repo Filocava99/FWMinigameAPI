@@ -1,5 +1,6 @@
 package it.forgottenworld.fwminigamesapi;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class FWMinigamesAPI extends JavaPlugin {
@@ -13,4 +14,6 @@ public class FWMinigamesAPI extends JavaPlugin {
     public static void registerMinigame(Minigame minigame){
         //TODO
     }
+
+
 }
